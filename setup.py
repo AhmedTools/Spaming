@@ -23,6 +23,7 @@ try:
     from user_agent import generate_user_agent
 except:
     os.system('pip install user_agent')
+    import user_agent
     from user_agent import generate_user_agent
 os.system('clear')
 red = '\033[1;31m'
