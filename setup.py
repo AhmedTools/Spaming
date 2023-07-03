@@ -29,7 +29,7 @@ red = '\033[1;31m'
 yellow = '\033[1;33m'
 green = '\033[2;32m'
 restart = '\x1b[0m'
-
+import requests
 requests.packages.urllib3.disable_warnings()
 
 def sms(copyright1):
