@@ -3,22 +3,27 @@ try:
     import random
 except:
     os.system('pip install random')
+    import random
 try:
     import requests
 except:
     os.system('pip install requests')
+    import requests
 try:
     import time
 except:
     os.system('pip install time')
+    import time
 try:
     import hashlib
 except:
     os.system('pip install hashlib')
+    import hashlib
 try:
     from user_agent import generate_user_agent
 except:
     os.system('pip install user_agent')
+    from user_agent import generate_user_agent
 os.system('clear')
 red = '\033[1;31m'
 yellow = '\033[1;33m'
