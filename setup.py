@@ -188,6 +188,10 @@ def call(copyright1):
 			os.system('clear')
 			print(copyright1)
 			exit(f"Sorry Number {target} Fake & Unavailable for legal reasons \nعذرًا الرقم {target} وهمي و مخالف للقانون")
+		elif "Verification failed" in response:
+			os.system('clear')
+			print(copyright1)
+			exit('Error Call ; Verification failed')
 		else:
 			print(copyright1)
 			print(response)
