@@ -1,19 +1,11 @@
 import os
-try:
-    import random
-except:
-    os.system('pip install random')
-    import random
+import random
+import time
 try:
     import requests
 except:
     os.system('pip install requests')
     import requests
-try:
-    import time
-except:
-    os.system('pip install time')
-    import time
 try:
     import hashlib
 except:
@@ -30,7 +22,6 @@ red = '\033[1;31m'
 yellow = '\033[1;33m'
 green = '\033[2;32m'
 restart = '\x1b[0m'
-import requests
 requests.packages.urllib3.disable_warnings()
 
 def sms(copyright1):
